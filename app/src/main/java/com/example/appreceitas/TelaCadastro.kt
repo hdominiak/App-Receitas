@@ -1,6 +1,7 @@
 package com.example.appreceitas
 
 import android.content.Intent
+import android.graphics.Color
 import android.os.Bundle
 import android.widget.ImageButton
 import androidx.activity.enableEdgeToEdge
@@ -24,6 +25,8 @@ class TelaCadastro : AppCompatActivity() {
             startActivity(intent)
         }
 
+
+        voltarButton.setBackgroundColor(Color.TRANSPARENT)  // Deixa o fundo transparente
 
 
     }
