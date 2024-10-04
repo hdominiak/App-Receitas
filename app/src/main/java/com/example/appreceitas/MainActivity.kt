@@ -13,6 +13,7 @@ class MainActivity : AppCompatActivity() {
     lateinit var user: EditText
     lateinit var pass: EditText
     lateinit var loginButton: Button
+    lateinit var cadastroButton: Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -22,15 +23,23 @@ class MainActivity : AppCompatActivity() {
         user = findViewById(R.id.userid)
         pass = findViewById(R.id.password)
         loginButton = findViewById(R.id.loginButton)
+        cadastroButton = findViewById(R.id.buttonSignUp)
 
         loginButton.setOnClickListener {
             if (user.text.toString().equals("henrique") &&
                 pass.text.toString().equals("123")
             ) {
                 Toast.makeText(this, "foi", Toast.LENGTH_LONG).show()
-                var intent = Intent(applicationContext, telaPrincipal::class.java)
+                intent = Intent(applicationContext, TelaPrincipal::class.java)
                 startActivity(intent)
             }
         }
+        cadastroButton.setOnClickListener {
+            intent = Intent(applicationContext, TelaCadastro::class.java)
+            startActivity(intent)
+        }
+
+
+
     }
 }
