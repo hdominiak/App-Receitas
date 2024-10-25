@@ -16,15 +16,6 @@
             android:name=".TelaCadastro"
             android:exported="false" />
         <activity
-            android:name=".telaPrincipal"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity
             android:name=".TelaPrincipal"
             android:exported="false" />
         <activity
