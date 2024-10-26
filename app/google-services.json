@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "951214887084",
+    "project_id": "appreceita-1354b",
+    "storage_bucket": "appreceita-1354b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:951214887084:android:ff912a19724a3bd8dd0f09",
+        "android_client_info": {
+          "package_name": "com.example.appreceitas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "951214887084-5ekb6gki42rm3el4ihuhgo6rfc06df6i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.appreceitas",
+            "certificate_hash": "150919a709175fb2da26086b18ee54575a5ec4ca"
+          }
+        },
+        {
+          "client_id": "951214887084-mqekc4r0hk6ggea85roo28c1g6hr2iba.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNv9eSpvZKmS_DmY0a1K2bcm76GTbomrw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "951214887084-l8gh8f4v7jbifvks7gl10lg1hdppbpqr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
